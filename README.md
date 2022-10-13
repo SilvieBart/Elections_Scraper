@@ -9,7 +9,7 @@ INSTALACE KNIHOVEN
 Knihovny, které jsou použity v kódu jsou uložené v souboru requirements.txt. Pro instalaci doporučuji použít
 nové virtuální prostředí a s nainstalovaným manažerem spustit následovně:
 
-$ pip3 --version					# ověřím verzi manažeru
+$ pip3 --version					          # ověřím verzi manažeru
 $ pip3 install -r requirements.txt	# nainstaluji knihovny
 
 
@@ -26,17 +26,17 @@ Výsledky hlasování pro okres Prostějov:
 1. argument: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103
 2. argument: vysledky_prostejov.csv
 
-Spuštění programu:
+SPUŠTĚNÍ PROGRAMU:
 
 Python Elections_Scraper.py https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103 vysledky_prostejov.csv
 
-Průběh stahování:
+PRŮBĚH STAHOVÁNÍ:
 
 STAHUJI DATA Z VYBRANEHO URL: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103
 UKLADAM DO SOUBORU: vysledky_prostejov.csv
 ZAPSANO. UKONCUJI PROGRAM...
 
-Částečný výstup
+ČÁSTEČNÝ VÝSTUP:
 
 Kod obce,Nazev obce,Volici,Vydane obalky,Platne hlasy,ANO 2011,...
 506761,Alojzov,205,145,144,32,0,0,0,1,17,6,0,29,0,1,0,0,1,0,5,0,1,4,15,5,
